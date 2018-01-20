@@ -1,0 +1,26 @@
+{
+  "name": "cardify",
+  "version": "1.0.0",
+  "description": "jQuery plugin that shows the alt attribute of an image when that image is hovered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massienderella/cardify.git"
+  },
+  "author": "Tanko Azocar, Massiel Moraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massienderella/cardify/issues"
+  },
+  "homepage": "https://github.com/massienderella/cardify#readme",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "materialize": "^1.0.0"
+  }
+}

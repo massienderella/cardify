@@ -1,54 +1,23 @@
 # Cardify
 
-* **Track:** _Common Core_
+* **Objetivo** _Crear un Plugin de Jquery que permita mostrar el atributo alt  de una imagen, al hacer hover sobre la misma_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
 * **Unidad:** _Producto final_
 
 ***
 
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
-imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
-elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
-con el texto del atributo `alt` de la imagen.
+### Metodología de trabajo
 
-## Flujo de trabajo
++ Uso de metodología Agile, se implementan retrospectivas para evaluar la calidad y los resultados del trabajo que se está realizando
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
++ Uso de Trello para ordenar tareas por día/semana, con el objetivo de poder hacer uso eficiente y eficaz de la duración del sprint
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
++ Uso de WhatsApp como medio de comunicación remoto
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/cardify.git
-   ```
+### Requerimientos técnicos
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a la rama que tus
-   instructorxs este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+(Por confirmar)
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` :smiley:.
+### Levantamiento ambiente de desarrollo
 
-***
-
-## Instalación
-
-### Global (navegador)
-
-```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="path-to-cardify.js"></script>
-```
-
-## Uso
-
-```js
-// `container` es el selector del contenedor donde se buscarán todas las
-// imágenes a ser procesadas.
-$(container).cardify({});
-```
-
-## Ejemplos
-
-...
+(Dude what)
