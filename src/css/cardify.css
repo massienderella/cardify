@@ -35,7 +35,8 @@ h3{
   font-weight: 600;
   text-transform: uppercase;
 }
-figure{
+/* Estilos de prueba para el Cardify */
+/*figure{
   position: relative;
   display: inline-block;
   background-color: #011a27;
@@ -43,7 +44,7 @@ figure{
   margin: 0;
   box-sizing: border-box;
   line-height: 0;
-}
+
 .opacityCero{
   opacity: 0;
 }
@@ -57,4 +58,4 @@ figcaption{
   text-align: center;
   color: #FFF;
   line-height: 1.2em;
-}
+}*/
