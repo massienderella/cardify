@@ -31,9 +31,8 @@ function cardifyImages(container) {
 };*/
 
 $(document).ready(function() {
-  let containerCardify = $('.cardify');
   // Using my extended function
-  containerCardify.cardifyImages();
+  $('.cardify').cardifyImages();
 });
 // "$.fn" allows you to extend jQuery with your own functions. Is also synonymous with jQuery.fn 
 $.fn.cardifyImages = function() {
