@@ -16,13 +16,8 @@
 
 ### Requerimientos técnicos
 
-+ jQuery
-+ Materialize
-+ Eslint
-+ npm
-+ Node.js
+(Por confirmar)
 
-### Levantamiento de ambiente de desarrollo
+### Levantamiento ambiente de desarrollo
 
-Implementación de npm init, instalar dependencias con las que trabajar a través de npm install y creación de archivo .gitignore
-
+(Dude what)
