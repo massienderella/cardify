@@ -1,5 +1,5 @@
-/*  */
-/*$(document).ready(function() {
+/* Forma simple */
+/* $(document).ready(function() {
   let containerCardify = $('.cardify');
   cardifyImages(containerCardify);
 });
@@ -28,12 +28,15 @@ function cardifyImages(container) {
       'opacity': '0',
     });
   });
-};*/
+}; */
 
+const $ = require('jquery');
+const cardifyImages = {};
+
+/* Forma con funcion extendida */
 $(document).ready(function() {
-  let containerCardify = $('.cardify');
   // Using my extended function
-  containerCardify.cardifyImages();
+  $('.cardify').cardifyImages();
 });
 // "$.fn" allows you to extend jQuery with your own functions. Is also synonymous with jQuery.fn 
 $.fn.cardifyImages = function() {
@@ -42,7 +45,7 @@ $.fn.cardifyImages = function() {
   this.find($('img')).each(function() {
     // agregar luego de "this img"
     $(this).after('<figcaption class="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2em; font-weight: bolder; text-align: center; color: #FFF; line-height: 1.2em; opacity: 0; transition: ease all 0.5s;">' + 
-    $(this).attr('alt') + '<figcaption>');
+    $(this).attr('alt') + '</figcaption>');
   });
   // Mostrar al Hover
   $('figure').hover(function() {
@@ -63,3 +66,5 @@ $.fn.cardifyImages = function() {
     });
   });
 };
+
+module.exports = cardifyImages;

@@ -25,4 +25,3 @@
 ### Levantamiento de ambiente de desarrollo
 
 Implementación de npm init, instalar dependencias con las que trabajar a través de npm install y creación de archivo .gitignore
-
