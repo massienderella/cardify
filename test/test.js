@@ -40,6 +40,6 @@ describe('Verificando largo de "alt"', () => {
   it('alt.length debe ser mayor a 0', () => {
     var altLength = ($('img').attr('alt').length);
     expect(altLength).to.be.above(0);
-  })
-})
+  });
+});
 
