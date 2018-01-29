@@ -18,25 +18,25 @@ describe('Función cardifyImages', () => {
   // Ejecuto la función Cardify en el HTML de maqueta que creamos arriba
   $('.containerTest').cardify;
   // Compruebo la creación del elemento Figure
-  it('Se crea el elemento figure', () => {
+  it('Creacion de etiqueta "figure"', () => {
     chai.assert.exists($('figure'));
   });
 });
 
 describe('Función cardifyImages', () => {
   $('.containerTest').cardify;
-  it('Se crea el elemento figcaption', () => {
+  it('Creación de etiqueta "figcaption"', () => {
     chai.assert.exists($('figcaption'));
   });
 });
 
-describe('Función cardifyImages', () => {
+describe('Verificando existencia de "alt"', () => {
   it('alt debe ser un String', () => {
     expect($('img').attr('alt')).to.be.a('string');
   });
 });
 
-describe('Función cardifyImages', () => {
+describe('Verificando largo de "alt"', () => {
   it('alt.length debe ser mayor a 0', () => {
     var altLength = ($('img').attr('alt').length);
     expect(altLength).to.be.above(0);
