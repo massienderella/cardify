@@ -19,16 +19,14 @@
 ##### Dependencias de producción
 
 
-+ jQuery
-+ Materialize
-+ Eslint
++ jQuery 3.3.1
++ Materialize 0.100.2
++ Eslint 0.9.1
 
 ##### Dependencias de desarrollo
 
-+ npm
-+ Node.js
-+ Browserify
-+ mocha
-+ chai
++ Browserify 15.2.0
++ mocha 5.0.0
++ chai 4.1.2
 
 ### Instalación
