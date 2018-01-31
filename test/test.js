@@ -16,7 +16,7 @@ const expect = require('chai').expect;
 const plugin = require('chai-jq');
 chai.use(plugin);
 
-describe('Función cardifyImages', () => {
+describe('La etiqueta figure existe', () => {
   // Ejecuto la función Cardify en el HTML de maqueta que creamos arriba
   $('.containerTest').cardify;
   // Compruebo la creación del elemento Figure
@@ -25,10 +25,10 @@ describe('Función cardifyImages', () => {
   });
 });
 
-describe('Función cardifyImages', () => {
+describe('La etiqueta figcaption existe', () => {
   $('.containerTest').cardify;
   it('Creación de etiqueta "figcaption"', () => {
-    chai.assert.exists($('figcpption'));
+    chai.assert.exists($('figcaption'));
   });
 });
 
