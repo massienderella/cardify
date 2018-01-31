@@ -16,12 +16,19 @@
 
 ### Requerimientos técnicos
 
+##### Dependencias de producción
+
+
 + jQuery
 + Materialize
 + Eslint
+
+##### Dependencias de desarrollo
+
 + npm
 + Node.js
++ Browserify
++ mocha
++ chai
 
-### Levantamiento de ambiente de desarrollo
-
-Implementación de npm init, instalar dependencias con las que trabajar a través de npm install y creación de archivo .gitignore
+### Instalación
