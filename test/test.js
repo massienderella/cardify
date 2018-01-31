@@ -45,3 +45,9 @@ describe('Verificando largo de "alt"', () => {
   });
 });
 
+describe('La imagen posee su atributo alt', () => {
+  it('La imagen posee su atributo alt', () => {
+  expect($('img')).to.have.$attr('alt');
+  });
+});
+
