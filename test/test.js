@@ -13,6 +13,8 @@ global.navigator = {
 const $ = require('jquery');
 const cardify = require('../src/js/cardify');
 const expect = require('chai').expect;
+const plugin = require('chai-jq');
+chai.use(plugin);
 
 describe('Función cardifyImages', () => {
   // Ejecuto la función Cardify en el HTML de maqueta que creamos arriba
@@ -26,7 +28,7 @@ describe('Función cardifyImages', () => {
 describe('Función cardifyImages', () => {
   $('.containerTest').cardify;
   it('Creación de etiqueta "figcaption"', () => {
-    chai.assert.exists($('figcaption'));
+    chai.assert.exists($('figcpption'));
   });
 });
 

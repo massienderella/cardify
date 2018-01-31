@@ -28,5 +28,6 @@
 + Browserify 15.2.0
 + mocha 5.0.0
 + chai 4.1.2
++ chai-jq 0.0.9
 
 ### Instalación
