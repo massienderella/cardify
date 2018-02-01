@@ -18,7 +18,6 @@
 
 ##### Dependencias de producción
 
-
 + jQuery 3.3.1
 + Materialize 0.100.2
 + Eslint 0.9.1
@@ -31,4 +30,9 @@
 + chai-jq 0.0.9
 + Node.js
 
-### Instalación
+### Modo de uso
+
+1. `git clone` al este repositorio
+2. No olvides enlazar `jQuery` en tu archivo .html!
+3. Enlaza el archivo `main.js` que se encuentra dentro de la carpeta `lib`
+4. Asígnale la clase `cardify` al contenedor donde irán tus imágenes para el que hover se active sobre ellas
