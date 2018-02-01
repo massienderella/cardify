@@ -32,21 +32,19 @@ function cardifyImages(container) {
 
 const $ = require('jquery');
 const cardifyImages = {};
-
-/* Forma con funcion extendida */
-$(document).ready(function() {
-  // Using my extended function
-  $('.cardify').cardifyImages();
-});
 // "$.fn" allows you to extend jQuery with your own functions. Is also synonymous with jQuery.fn 
 $.fn.cardifyImages = function() {
   // buscar en "this container"
-  this.find($('img')).wrap('<figure style="position: relative; display: inline-block; background-color: #011a27; display: inline-block; margin: 0; box-sizing: border-box; line-height: 0"></figure>');
+  this.find($('img')).wrap('<figure class="imgFigure" style="position: relative; background-color: #011a27; display: inline-block; margin: 0; box-sizing: border-box; line-height: 0"></figure>');
   this.find($('img')).each(function() {
     // agregar luego de "this img"
-    $(this).after('<figcaption class="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2em; font-weight: bolder; text-align: center; color: #FFF; line-height: 1.2em; opacity: 0; transition: ease all 0.5s;">' + 
+    $(this).after('<figcaption class="imgFigcaption" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2em; font-weight: bolder; text-align: center; color: #FFF; line-height: 1.2em; opacity: 0; transition: ease all 0.5s;">' + 
     $(this).attr('alt') + '</figcaption>');
   });
+  hoverImages();
+};
+
+function hoverImages(){
   // Mostrar al Hover
   $('figure').hover(function() {
     $(this).children('img').css({
@@ -65,6 +63,7 @@ $.fn.cardifyImages = function() {
       'opacity': '0',
     });
   });
-};
-
+}
+// Using my extended function
+  $('.cardify').cardifyImages();
 module.exports = cardifyImages;
