@@ -46,6 +46,6 @@
 4. Asígnale la clase `cardify` al contenedor donde irán tus imágenes para el que hover se active sobre ellas
 <img src="https://i.imgflip.com/23sw6r.gif" title="made at imgflip.com"/></br>
 <img src="https://i.imgflip.com/23swqp.gif" title="made at imgflip.com"/></br>
-5. Recuerda asignarle un atributo Alt a tus imágenes.
+5. Recuerda asignarle el atributo "alt" a tus imágenes.</br>
 <img src="https://image.prntscr.com/image/dF5bhhZpQRiaR0eN9XreHA.png"/>
 
