@@ -1,5 +1,11 @@
 # Cardify
 
+Un plugin de Jquery que permite ver el atrbuto "alt" de una imagen como una descripción, al hacer "hover" sobre la misma.
+
+Demo: https://tazocar.github.io/demo-cardify/
+
+***
+
 * **Objetivo** _Crear un Plugin de Jquery que permita mostrar el atributo alt  de una imagen, al hacer hover sobre la misma_
 * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
 * **Unidad:** _Producto final_
