@@ -32,7 +32,20 @@
 
 ### Modo de uso
 
-1. `git clone` al este repositorio
+1. `git clone` al este repositorio</br>
+<a href="https://imgflip.com/gif/23swkq"><img src="https://i.imgflip.com/23swkq.gif" title="made at imgflip.com"/></a>
 2. No olvides enlazar `jQuery` en tu archivo .html!
-3. Enlaza el archivo `main.js` que se encuentra dentro de la carpeta `lib`
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+```
+3. Enlaza el archivo `main.js` que se encuentra dentro de la carpeta `lib`</br>
+```html
+<script src="lib/main.js"></script>
+```
+</br><img src="https://i.imgflip.com/23svvj.gif" title="made at imgflip.com"/></br>
 4. Asígnale la clase `cardify` al contenedor donde irán tus imágenes para el que hover se active sobre ellas
+<img src="https://i.imgflip.com/23sw6r.gif" title="made at imgflip.com"/></br>
+<img src="https://i.imgflip.com/23swqp.gif" title="made at imgflip.com"/></br>
+5. Recuerda asignarle el atributo "alt" a tus imágenes.</br>
+<img src="https://image.prntscr.com/image/dF5bhhZpQRiaR0eN9XreHA.png"/>
+

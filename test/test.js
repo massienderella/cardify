@@ -13,6 +13,7 @@ global.navigator = {
 const $ = require('jquery');
 const cardify = require('../src/js/cardify');
 const expect = require('chai').expect;
+const assert = require('chai').assert;
 const plugin = require('chai-jq');
 chai.use(plugin);
 
@@ -21,32 +22,33 @@ describe('La etiqueta figure existe', () => {
   $('.containerTest').cardifyImages();
   // Compruebo la creación del elemento Figure
   it('Creacion de etiqueta "figure"', () => {
-    chai.expect($('figure')).to.have.$class('imgFigure')
+    expect($('figure')).to.have.$class('imgFigure')
   });
 });
 
 describe('La etiqueta figcaption existe', () => {
   $('.containerTest').cardifyImages();
   it('Creación de etiqueta "figcaption"', () => {
-    chai.expect($('figcaption')).to.have.$class('imgFigcaption')
+    expect($('figcaption')).to.have.$class('imgFigcaption')
   });
 });
 
 describe('Verificando largo de "alt"', () => {
   it('alt.length debe ser mayor a 0', () => {
     var altLength = ($('img').attr('alt').length);
-    chai.expect(altLength).to.be.above(0);
+    expect(altLength).to.be.above(0);
   });
 });
 
 describe('La imagen posee su atributo alt', () => {
   it('La imagen posee su atributo alt', () => {
-  chai.expect($('img')).to.have.$attr('alt');
+    expect($('img')).to.have.$attr('alt');
   });
 });
 
 describe('Hay un efecto hover presente', () => {
   it('Debe haber un efecto hover en la función', () => {
-    chai.expect(($('figure')).hover().children()).to.
-  })
+    $('.containerTest').cardifyImages();
+      assert(typeof $('figure').hover === "function")
+  });
 });
