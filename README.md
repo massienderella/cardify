@@ -42,7 +42,10 @@
 ```html
 <script src="lib/main.js"></script>
 ```
-</br><a href="https://imgflip.com/gif/23svvj"><img src="https://i.imgflip.com/23svvj.gif" title="made at imgflip.com"/></a></br>
+</br><img src="https://i.imgflip.com/23svvj.gif" title="made at imgflip.com"/></br>
 4. Asígnale la clase `cardify` al contenedor donde irán tus imágenes para el que hover se active sobre ellas
-<a href="https://imgflip.com/gif/23sw6r"><img src="https://i.imgflip.com/23sw6r.gif" title="made at imgflip.com"/></a></br>
-<a href="https://imgflip.com/gif/23swqp"><img src="https://i.imgflip.com/23swqp.gif" title="made at imgflip.com"/></a>
+<img src="https://i.imgflip.com/23sw6r.gif" title="made at imgflip.com"/></br>
+<img src="https://i.imgflip.com/23swqp.gif" title="made at imgflip.com"/></br>
+5. Recuerda asignarle un atributo Alt a tus imágenes.
+<img src="https://image.prntscr.com/image/dF5bhhZpQRiaR0eN9XreHA.png"/>
+
