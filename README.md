@@ -36,3 +36,4 @@
 2. No olvides enlazar `jQuery` en tu archivo .html!
 3. Enlaza el archivo `main.js` que se encuentra dentro de la carpeta `lib`
 4. Asígnale la clase `cardify` al contenedor donde irán tus imágenes para el que hover se active sobre ellas
+<a href="https://imgflip.com/gif/23sv8o"><img src="https://i.imgflip.com/23sv8o.gif" title="made at imgflip.com"/></a>
